@@ -9,6 +9,9 @@ const client = new Client()
     .setEndpoint(API_ENDPOINT) 
     .setProject(PROJECT_ID);    
 
+//     const client = new Client();
+// client.setProject('671f9b260016416ab8d8');
+
 export const account = new Account(client);
 export const databases = new Databases(client)
 
